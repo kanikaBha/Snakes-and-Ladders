@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stationary Bill Calculation</title>
+    <link rel="stylesheet" href="dice.css">
+</head>
+<body>
+    <div class="container">
+      
+        
+     <h1> Snakes & Ladders </h1>
+     <div > 
+        <table> 
+            <tr>
+                <td> 
+   <div class="d1">
+                    <img src="dice.jpg" id="p1"><br>
+
+       <h1>Score </h1>
+       <p id="score1"> 0
+       <h2> Dice Number </h2>
+       <p id="dice1"></p>
+
+
+        <button id="b1" onclick="rollDice1()"> Player 1 </button><br>
+    </div>
+                </td>
+                <td>
+                    <div class="d1">
+        
+        <img src="dice.jpg" id="p2"><br>
+        
+       <h1 >Score </h1>
+       <p id="score2"> 0</p>
+       <h2> Dice Number </h2>
+       <p id="dice2"></p>
+        <button id="b2" onclick="rollDice2()">Player 2</button><br>
+        </div>
+ </td>
+            </tr>
+        </table>
+        
+
+
+       
+        
+
+        </div>
+        <button id="restart" onclick="playAgain()"> Restart Game</button>
+        <br>
+
+        <p id="first">
+            <button id="start" onclick="decision()">Play here to decide who goes first!</button>
+    </p>
+
+    </div>
+
+
+
+    <script src="dice.js"></script>
+</body>
+</html>

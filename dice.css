@@ -1,0 +1,130 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fce4ec; /* Light pink background for a fun vibe */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('s+l.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.3; /* Slightly more transparent for a softer look */
+    z-index: -1;
+}
+
+.container {
+    background-color: #ffeb3b;
+    padding: 30px; /* Added more padding for spaciousness */
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Larger shadow for more depth */
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    border: 5px solid #ff80ab; /* Solid border for a cleaner look */
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    color: #ff4081; /* Brighter pink for more fun */
+    font-size: 3em; /* Larger font for more impact */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #ff80ab; /* Subtle text shadow */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-spacing: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+.d1 {
+    background-color: #f8bbd0; /* Light pink for a softer touch */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
+    text-align: center;
+    border: 3px solid #ec407a; /* Brighter border */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 3px solid #ec407a; /* Brighter border */
+}
+
+h2, p {
+    margin: 10px 0;
+    color: #d81b60; /* Darker pink for contrast */
+}
+
+button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #c2185b;
+    transform: scale(1.1);
+}
+
+#score1, #score2, #dice1, #dice2 {
+    font-size: 1.5em;
+    color: #d81b60;
+    font-weight: bold;
+}
+
+.pic {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ec407a;
+    border-radius: 10px;
+    margin: 10px auto;
+    background-size: cover;
+    background-position: center;
+}
+
+#result, #firstP {
+    font-size: 1.5em;
+    color: #d81b60;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cBtn button {
+    margin: 0;
+}
